@@ -1,0 +1,27 @@
+{
+  "name": "fftools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "trending": "tsx sleeperApi.ts trending",
+    "available": "tsx sleeperApi.ts available",
+    "roster": "tsx sleeperApi.ts roster",
+    "claude": "tsx sleeperApi.ts claude",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.5.0",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true
+  }
+}
